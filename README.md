@@ -3,6 +3,8 @@
 This is a full-fledged boilerplate for a React frontend with a Node.JS backend. Both services are provided together for development ease, but can be easily splitted if desired.
 Also contains useful tooling to ensure code quality, and a working unit and integration test setup.
 
+Note: this is pretty much a monolyth. I plan on doing another flavour in another time following a monorepo architecture.
+
 ## Setup
 
 * `npm install`
