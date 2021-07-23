@@ -1,0 +1,30 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "cypress",
+    "react",
+    "prettier"
+  ],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "plugin:cypress/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "no-undef": 2,
+    "@typescript-eslint/no-empty-function": 0,
+    "prettier/prettier": [2, {}, {
+      "usePrettierrc": true
+    }],
+    "react/jsx-max-props-per-line": [2, { "maximum": 1, "when": "multiline" }]
+  },
+  "globals": {
+    "JSX": true,
+    "process": true
+  }
+}
